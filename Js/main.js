@@ -3,7 +3,7 @@ const btnCart = document.querySelector('.cart')
 const btnUser = document.querySelector('.user')
 
 
-document.querySelector('#search-icon').addEventListener('click', () => {
+document.querySelector('#btn-busqueda').addEventListener('click', () => {
   
   searchBar.classList.toggle('active')
   btnCart.classList.remove('active')
@@ -12,7 +12,7 @@ document.querySelector('#search-icon').addEventListener('click', () => {
 })
 
 
-document.querySelector('#cart-icon').addEventListener('click', () => {
+document.querySelector('#btn-carrito').addEventListener('click', () => {
   
   btnCart.classList.toggle('active')
   searchBar.classList.remove('active')
@@ -20,7 +20,7 @@ document.querySelector('#cart-icon').addEventListener('click', () => {
 
 })
 
-document.querySelector('#user-icon').addEventListener('click', () => {
+document.querySelector('#btn-usuario').addEventListener('click', () => {
   btnUser.classList.toggle('active')
   btnCart.classList.remove('active')
   searchBar.classList.remove('active')
