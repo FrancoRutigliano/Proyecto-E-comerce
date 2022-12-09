@@ -80,10 +80,11 @@ header{
   justify-content: space-between;
   padding: 20px 100px;
   transition: 0.5s linear;
+  background: white;
+  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 
-header .shadow{
-  background: var(--bg-color);
+header .bg-header{
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 

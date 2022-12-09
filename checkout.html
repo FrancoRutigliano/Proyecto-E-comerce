@@ -17,18 +17,22 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
   <link rel="stylesheet" href="./checkoutstyles.css">
 
+<!-- Script -->
+
+<script defer src="./Js/check.js"></script>
+
 </head>
 <body>
-  <button><a href="/index.html">Volver</a></button>
+  <button><a href="./index.html">Volver</a></button>
 
   <div class="container">
 
-    <form action="">
+    <form class="formulario" action="">
 
       <div class="row">
 
         <div class="col">
-          <h3 class="tittle">Billing Address</h3>
+          <h3 class="tittle">Datos</h3>
 
           <div class="inputBox">
             <span>Nombre Completo</span>
@@ -62,9 +66,9 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
           <div class="inputBox">
             <span>Tarjetas acceptadas</span>
-            <span><i class='bx bxl-mastercard'></i></span>
-            <span><i class='bx bxl-visa' ></i></span>
-            <span><i class='bx bxl-paypal'></i></span>
+            <i class='bx bxl-mastercard'></i>
+            <i class='bx bxl-visa' ></i>
+            <i class='bx bxl-paypal'></i>
           </div>
 
           <div class="inputBox">
@@ -78,23 +82,33 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
           </div>
 
           <div class="inputBox">
-            <span>Ciudad</span>
-            <input type="text" placeholder="Carlos Keen">
+            <span>Exp. Mes</span>
+            <input type="text" placeholder="Junio">
           </div>
           
           <div class="inputBox">
-            <span>Código Postal</span>
-            <input type="text" placeholder="1088">
+            <span>Exp. Año</span>
+            <input type="text" placeholder="2027">
+          </div>
+
+          <div class="inputBox">
+            <span>Código de Seguridad</span>
+            <input type="text" placeholder="791">
           </div>
 
         </div>
 
       </div>
+      <p class="parrafo-limite">Te guardamos los productos por 2 minutos <span id="limite">120</span></p>
+      <input type="submit" value="Finalizar la compra" class="submit-btn">
 
     </form>
 
   
   </div>
+
+<!-- SweetAlert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 </html>

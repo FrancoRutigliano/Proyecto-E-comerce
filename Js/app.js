@@ -4,6 +4,7 @@ const PrecioTotal = document.querySelector('#precio-total')
 const contenidoCarrito = document.querySelector('#contenedor-carrito')
 const VaciarCarrito = document.querySelector('#vaciar-carrito')
 const btnIniciarCompra = document.querySelector('#btn-iniciarCompra')
+const ModalNewsletter = document.querySelector('[body]')
 
 
 const carritoVacio = () => {

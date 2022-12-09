@@ -3,6 +3,12 @@ const btnCart = document.querySelector('.cart')
 const btnUser = document.querySelector('.user')
 
 
+const scrollHeader = () =>{
+  const header = document.getElementById('header')
+  this.scrollY >= 50 ? header.classList.add('bg-header') : header.classList.remove('bg-header')
+}
+window.addEventListener('scroll', scrollHeader)
+
 document.querySelector('#btn-busqueda').addEventListener('click', () => {
   
   searchBar.classList.toggle('active')
@@ -27,13 +33,6 @@ document.querySelector('#btn-usuario').addEventListener('click', () => {
 })
 
 
-// Scroleo de nav
-
-const header = document.querySelector('header')
-
-window.addEventListener('scroll', () => {
-  header.classList.toggle('shadow', window.scrollY > 0)
-})
 
 
 var swiper = new Swiper(".new-arrival", {

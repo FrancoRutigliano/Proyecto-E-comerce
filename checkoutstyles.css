@@ -1,0 +1,117 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* Fin de Google Font */
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #fa96a7 60%, #ff738b 40.1%);
+  padding-bottom: 70px;
+}
+
+.container form{
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container form .row .col{
+  flex: 1 1 250px;
+}
+
+.container form .row .col .tittle{
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox i{
+  font-size: 30px;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 5px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 2px;
+  text-transform: none;
+}
+
+
+.container form .row .col .inputBox input:focus{
+  border: 1px solid #000;
+}
+
+
+.container form .submit-btn{
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #ff8da0;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  opacity: 0.9;
+}
+
+
+.container form .title-volver{
+  padding: 15px;
+  text-align: left;
+}
+
+.container form .btn-volver a{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ff8da0;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container form .btn-volver:hover a{
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+
+
+.container form .parrafo-limite{
+  max-width: 280px;
+}
+
+
+
