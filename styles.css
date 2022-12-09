@@ -377,8 +377,8 @@ header{
 
 .new-arrival .box{
   position: relative;
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
 
@@ -393,18 +393,6 @@ header{
 }
 
 
-
-
-.new-arrival .box .content a{
-  padding: 0.7rem 1.2rem;
-  background: var(--main-color);
-  font-weight: 500;
-  color: black;
-  font-size: 20px;
-  display: inline-block;
-  border-radius: 6px;
-  transition: 0.2s;
-}
 
 
 .new-arrival .box .content a:hover{
