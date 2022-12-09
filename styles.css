@@ -80,11 +80,10 @@ header{
   justify-content: space-between;
   padding: 20px 100px;
   transition: 0.5s linear;
-  background: white;
-  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 
-header .bg-header{
+.bg-header{
+  background: white;
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 
@@ -319,14 +318,10 @@ header .bg-header{
   width: 100%;
   margin-left: 20px;
   min-height: 100vh;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(17rem, 1fr));
-  align-items: center; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5.5rem;
-  /* background: var(--second-color); */
   background: white;
 }
 
@@ -425,17 +420,6 @@ header .bg-header{
   margin-top: 2rem;
 
 }
-/* 
-.product-container .box{
-  position: relative;
-  padding: 10px;
-  box-shadow: 2px 1px 4px rgb(0 0 0 / 15%);
-  transition: 0.15s;
-}
-
-.product-container .box:hover{
-  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.35);
-} */
 
 .product-container .box{
   display: flex;
@@ -480,14 +464,6 @@ header .bg-header{
   background: var(--text-color);
   color: var(--bg-color);
 }
-
-/* No se si lo quiero dejar vueltereta de imagen*/
-/* 
-.product-container .box:hover img{
-  -webkit-transform: scalex(-2);
-  transform: scalex(-1);
-  transition: 0.7s;
-} */
 
 .about-us-container{
   display: grid;
